@@ -250,3 +250,8 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 # Load the secret env vars.
 source $HOME/Dropbox/dotfiles/secrets.sh
+
+# Setting PATH for Python 3.5
+# The original version is saved in .profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
+export PATH
